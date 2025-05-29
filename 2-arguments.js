@@ -7,6 +7,4 @@ if (args.length === 0) {
 } else {
   console.log('Arguments found');
 }
-argv.forEach((val, index) => {
-  console.log(`${index}: ${val}`);
-});
+
